@@ -1,0 +1,8 @@
+{
+  "name": "ai-automation-workflow-lab",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Bounded workflow automation reproduction with human approval and auditability",
+  "engines": { "node": ">=20" },
+  "scripts": { "test": "node --test test/workflow.test.js", "doctor": "node scripts/doctor.js", "start": "node workflow.js" }
+}
